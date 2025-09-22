@@ -8,7 +8,7 @@ code = testapp.jar
 code = getdown-new.jar
 
 # the main entry point of our app
-class = com.threerings.testapp.TestApp
+class = io.github.bekoenig.getdown.testapp.TestApp
 
 # we pass the appdir to our app so that it can upgrade getdown
 apparg = %APPDIR%

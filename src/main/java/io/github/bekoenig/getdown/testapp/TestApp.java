@@ -1,7 +1,8 @@
-package com.threerings.testapp;
+package io.github.bekoenig.getdown.testapp;
 
 import java.io.File;
 
+import io.github.bekoenig.getdown.util.LaunchUtil;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -9,8 +10,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-
-import com.threerings.getdown.util.LaunchUtil;
 
 public class TestApp extends Application {
 
